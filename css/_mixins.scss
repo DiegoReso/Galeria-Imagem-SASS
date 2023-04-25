@@ -1,6 +1,6 @@
 @mixin border($border-color){
   @if ($border-color == city){
-    background-color: white;
+    background-color: rgb(230, 181, 78);
   }
   @else if($border-color == game){
     background-color: red;
@@ -12,7 +12,7 @@
     background-color: grey;
   }
   @else if($border-color == gastronomy){
-    background-color: rgb(218, 172, 172);
+    background-color: rgb(248, 232, 4);
   }
   @else if($border-color == sport){
     background-color: rgb(87, 154, 216);
@@ -21,7 +21,7 @@
 
 @mixin icon-color($color){
   @if ($color == instagram){
-    color: rgb(189, 104, 65);
+    color: rgb(175, 107, 43);
   }
   @else if($color == twitter){
     color: rgb(45, 164, 201);
