@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Zen Dots", cursive;
+  list-style: none;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  width: 1800px;
+  height: 150px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 45px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  align-items: center;
+}
+header ul li {
+  cursor: pointer;
+  font-size: 25px;
+}
+header ul li:hover {
+  color: green;
+}
+header #icons {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+header #icons i {
+  cursor: pointer;
+}
+
+#images {
+  margin-top: 150px;
+}
+#images div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1400px;
+  height: 2100px;
+  margin: auto;
+  justify-content: space-around;
+}/*# sourceMappingURL=main.css.map */
