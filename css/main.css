@@ -104,4 +104,12 @@ header #icons i {
 }
 #images div figure:hover {
   transform: scale(1.1, 1.1);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: grey;
+  align-items: center;
+  margin-top: 100px;
 }/*# sourceMappingURL=main.css.map */
