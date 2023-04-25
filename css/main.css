@@ -10,6 +10,20 @@ body {
   background-color: black;
 }
 
+#images div #sport, #images div #gastronomy, #images div #architecture, #images div #animal, #images div #game, #images div #city {
+  padding: 10px;
+}
+
+#images div figure span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 35px;
+  color: rgba(238, 245, 241, 0.63);
+  text-shadow: 2px 3px 3px black;
+}
+
 header {
   display: flex;
   width: 1800px;
@@ -33,11 +47,24 @@ header ul li {
 }
 header ul li:hover {
   color: green;
+  text-shadow: 1px 1px 2px white;
 }
 header #icons {
   display: flex;
   width: 200px;
   justify-content: space-between;
+}
+header #icons #instagram {
+  color: rgb(189, 104, 65);
+}
+header #icons #twitter {
+  color: rgb(45, 164, 201);
+}
+header #icons #youtube {
+  color: rgb(211, 26, 26);
+}
+header #icons #facebook {
+  color: rgb(73, 56, 231);
 }
 header #icons i {
   cursor: pointer;
@@ -50,7 +77,31 @@ header #icons i {
   display: flex;
   flex-wrap: wrap;
   width: 1400px;
-  height: 2100px;
+  height: 2200px;
   margin: auto;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+#images div #city {
+  background-color: white;
+}
+#images div #game {
+  background-color: red;
+}
+#images div #animal {
+  background-color: rgb(171, 221, 159);
+}
+#images div #architecture {
+  background-color: grey;
+}
+#images div #gastronomy {
+  background-color: rgb(218, 172, 172);
+}
+#images div #sport {
+  background-color: rgb(87, 154, 216);
+}
+#images div figure {
+  position: relative;
+}
+#images div figure:hover {
+  transform: scale(1.1, 1.1);
 }/*# sourceMappingURL=main.css.map */

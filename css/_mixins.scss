@@ -1,3 +1,37 @@
 @mixin border($border-color){
-  
+  @if ($border-color == city){
+    background-color: white;
+  }
+  @else if($border-color == game){
+    background-color: red;
+  }
+  @else if($border-color == animal){
+    background-color: rgb(171, 221, 159);
+  }
+  @else if($border-color == architecture){
+    background-color: grey;
+  }
+  @else if($border-color == gastronomy){
+    background-color: rgb(218, 172, 172);
+  }
+  @else if($border-color == sport){
+    background-color: rgb(87, 154, 216);
+  }
 }
+
+@mixin icon-color($color){
+  @if ($color == instagram){
+    color: rgb(189, 104, 65);
+  }
+  @else if($color == twitter){
+    color: rgb(45, 164, 201);
+  }
+  @else if($color == youtube){
+    color: rgb(211, 26, 26);
+  }
+  @else if($color == facebook){
+    color: rgb(73, 56, 231);
+  }
+}
+
+

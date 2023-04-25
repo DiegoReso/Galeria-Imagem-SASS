@@ -24,24 +24,45 @@ header{
     li{
       cursor: pointer;
       font-size: 25px;
+      
 
       &:hover{
         color: green;
+        text-shadow:1px 1px 2px white;
       }
     }
     }
 
   
-  
-
   #icons{
     display: flex;
     width: 200px;
     justify-content: space-between;
 
+    #instagram{
+      @include icon-color(instagram)
+      }
+
+    #twitter{
+      @include icon-color(twitter)
+    }
+
+    #youtube{
+      @include icon-color(youtube)
+    }
+
+    #facebook{
+      @include icon-color(facebook)
+
+    }
+
+
     i{
       cursor: pointer;
+  
     }
+
+
 }
 
 }
@@ -53,14 +74,52 @@ header{
     display: flex;
     flex-wrap: wrap;
     width: 1400px;
-    height: 2100px;
+    height: 2200px;
     margin: auto;
-    justify-content: space-around;
-    
+    justify-content: space-evenly;
 
-    img{
-     
+    #city{
+      @extend %image;
+      @include border(city);
+    }
+
+    #game{
+      @extend %image;
+      @include border(game);
+    }
+
+    #animal{
+      @extend %image;
+      @include border(animal);
+    }
+
+    #architecture{
+      @extend %image;
+      @include border(architecture);
+    }
+
+    #gastronomy{
+      @extend %image;
+      @include border(gastronomy);
+    }
+
+    #sport{
+      @extend %image;
+      @include border(sport);
+    }
+
+    figure{
+      position: relative;
+      &:hover{
+        transform: scale(1.1,1.1);
+
+        }
+
+    span{
+      @extend %card;
+
+    }
+
     }
   }
-  
 }

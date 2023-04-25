@@ -1,3 +1,14 @@
 %image{
   padding: 10px;
 }
+
+%card{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 35px;
+  color: rgba(238, 245, 241, 0.63);
+  text-shadow: 2px 3px 3px black;
+  
+}
